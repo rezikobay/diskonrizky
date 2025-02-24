@@ -1,0 +1,73 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Gunakan font custom jika tersedia */
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/myfont.woff2') format('woff2'),
+         url('fonts/myfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Gunakan prioritas font: Custom > Google Font > Font Bawaan */
+body {
+    font-family: 'MyCustomFont', 'Poppins', Arial, sans-serif;
+    background-color: #00d5ff86;
+    font-size: 16px;
+}
+
+/* Logo */
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Judul */
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Formulir */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label Form */
+.form-label {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Input Form */
+.form-control {
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Tombol */
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hasil Perhitungan */
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Footer */
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
